@@ -36,7 +36,7 @@ class YunXunCase(unittest.TestCase):
                 driver.find_element_by_xpath("//input[@placeholder='手机号／邮箱']").send_keys(phone)
                 driver.find_element_by_xpath("//input[@placeholder='密码']").send_keys(pwd)
                 time.sleep(2)
-                driver.find_element_by_xpath('//*[@id="app"]/div/div/div/section/button[1]').click()
+                driver.find_element_by_xpath('//*[@id="app"]/section/article[2]/div/div[2]/div/div[1]/section/button[1]').click()
                 time.sleep(5)
                 s =driver.find_element_by_xpath('//*[@id="published"]/nav/section/div[2]/ul/li[1]/a').text
                 print(s)
