@@ -72,6 +72,7 @@ class Test_Demo(unittest.TestCase):
             try:
                 # 保存
                 driver.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[2]/div[3]/button[3]').click()
+                driver.implicitly_wait(5)
 
             finally:
                 # c = driver.find_element_by_xpath('/html/body/div[5]/div/span/div/div/div/span').text
