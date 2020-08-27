@@ -78,7 +78,7 @@ class Test_Demo(unittest.TestCase):
                 # c = driver.find_element_by_xpath('/html/body/div[5]/div/span/div/div/div/span').text
                 # print(c)
                 driver.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div[2]/div[3]/button[1]').click()
-            driver.implicitly_wait(5)
+                driver.implicitly_wait(5)
 
 
 
